@@ -1,0 +1,39 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	background-color: blanchedalmond;
+}
+#pag
+{
+	display: flex;
+	flex-direction: column;
+}
+h1
+{
+	padding: 5px;
+	font-size: 30px;
+}
+li
+{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	margin-left: 60px;
+	list-style: none;
+}
+li a
+{
+	text-decoration: none;
+	color: black;
+}
+li a:hover
+{
+	color: violet;
+}
+li:hover
+{
+	cursor: pointer;
+	transform: scale(1.02);
+	transition: 0.5s;
+}
