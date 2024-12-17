@@ -45,7 +45,7 @@
                 </x-button>
             </div>
 			<a href="{{route('register')}}" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-				registrate
+				Are you registered?
 			</a>
         </form>
     </x-authentication-card>
